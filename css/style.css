@@ -137,7 +137,10 @@ header{
     fill: rgba(117, 117, 117, 1);;
 }
 
-
+.header .contacts a{
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
 .contacts > a {
   font-weight: 500;
   font-size: 14px;
@@ -146,9 +149,8 @@ header{
   color: var(--main-color);
   text-decoration: none;
   
-  padding-bottom: 32px;
-  padding-top: 32px;
 }
+
 
 .contacts > a:hover,
 .contacts > a:focus {
