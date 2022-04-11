@@ -159,6 +159,7 @@ a:hover>.icon,
 a:focus>.icon {
     fill: var(--accent-color);
 }
+
 /*Основная секция страницы Портфолио*/
 
 .visually-hidden {
