@@ -126,6 +126,18 @@ header{
     margin-left: 50px;
     
 }
+
+.contacts .icon{
+    display: inline-block;
+
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+
+    fill: rgba(117, 117, 117, 1);;
+}
+
+
 .contacts > a {
   font-weight: 500;
   font-size: 14px;
@@ -133,10 +145,19 @@ header{
   letter-spacing: 0.02em;
   color: var(--main-color);
   text-decoration: none;
+  
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
+
 .contacts > a:hover,
 .contacts > a:focus {
   color: var(--accent-color);
+}
+
+a:hover>.icon,
+a:focus>.icon {
+    fill: var(--accent-color);
 }
 /*Основная секция страницы Портфолио*/
 
@@ -308,7 +329,8 @@ footer {
 }
 .hero {
   background-color: var(--second-bcg-color);
-  background-image: url(../images/hero.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+
   background-repeat: no-repeat;
   background-position: center;
 }
