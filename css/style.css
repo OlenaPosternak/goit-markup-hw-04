@@ -129,6 +129,11 @@ header{
 
 
 }
+
+.header .contacts {
+    display: flex;
+    align-items: center;
+}
 .header .contacts .item+.item{
     margin-left: 50px;
     
